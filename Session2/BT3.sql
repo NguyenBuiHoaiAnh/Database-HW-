@@ -1,0 +1,29 @@
+-- CREATE DATABASE `bt3_db` ;
+
+-- USE `bt3_db` ;
+
+--  CREATE TABLE `employees` (
+--     `employees_id` INT NOT NULL,
+--    `employees_name` VARCHAR(45) NOT NULL,
+--     `hiredate` INT NOT NULL,
+--     `salary` INT NOT NULL,
+--     PRIMARY KEY (`employees_id`)
+--   );
+--   
+--  CREATE TABLE `department` (
+--     `department_id` INT NOT NULL,
+--     `department_name` VARCHAR(45) NOT NULL,
+--     `address` INT NOT NULL,
+--     PRIMARY KEY (`department_id`)
+--   );
+--  
+--  CREATE TABLE `department_employees` (
+--    `department_id` INT NOT NULL,
+--    `employees_id` INT NOT NULL,
+-- CONSTRAINT `pc_department_fk`
+-- 	FOREIGN KEY (`department_id`)
+-- 	REFERENCES `department` (`department_id`),
+-- CONSTRAINT `pc_employees_fk`
+-- 	FOREIGN KEY (`employees_id`)
+-- 	REFERENCES `employees` (`employees_id`)
+--  );
